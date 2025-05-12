@@ -33,5 +33,6 @@ I'd like to improve how I handle content width without hardcoding values and con
 
 ## 👤 Author
 
-- GitHub – [fernandopizarrodw](https://github.com/tu-usuario](https://github.com/fernandopizarrodw/Testimonials-grid-section-Fronted-Mentor))
-- Frontend Mentor – [fernandopizarrodw](https://www.frontendmentor.io/profile/tu-usuario))
+- GitHub – [@fernandopizarrodw](https://github.com/fernandopizarrodw)
+- Frontend Mentor – [@fernandopizarrodw](https://www.frontendmentor.io/profile/fernandopizarrodw)
+- LinkedIn – [Fernando Pizarro](https://www.linkedin.com/in/fernandopizarro-dev/)
