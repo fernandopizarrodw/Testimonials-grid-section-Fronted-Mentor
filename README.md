@@ -8,7 +8,7 @@ This is a solution to the [Testimonials Grid Section challenge on Frontend Mento
 
 ## 🔗 Live Site
 
-[Live Site URL](https://tu-usuario.github.io/testimonials-grid-section/)
+[Live Site URL](https://fernandopizarrodw.github.io/Testimonials-grid-section-Fronted-Mentor/)
 
 ## 🛠️ Built With
 
@@ -33,5 +33,6 @@ I'd like to improve how I handle content width without hardcoding values and con
 
 ## 👤 Author
 
-- GitHub – [@tu-usuario](https://github.com/tu-usuario)
-- Frontend Mentor – [@tu-usuario](https://www.frontendmentor.io/profile/tu-usuario)
+- GitHub – [@fernandopizarrodw](https://github.com/fernandopizarrodw)
+- Frontend Mentor – [@fernandopizarrodw](https://www.frontendmentor.io/profile/fernandopizarrodw)
+- LinkedIn – [Fernando Pizarro](https://www.linkedin.com/in/fernandopizarro-dev/)
