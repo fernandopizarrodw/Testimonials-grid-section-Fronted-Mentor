@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Purple-50: hsl(260, 100%, 95%);
+    --Purple-300: hsl(264, 82%, 80%);
+    --Purple-500: hsl(263, 55%, 52%);
+
+    --White: hsl(0, 0%, 100%);
+    --Grey-100: hsl(214, 17%, 92%);
+    --Grey-200: hsl(0, 0%, 81%);
+    --Grey-400: hsl(224, 10%, 45%);
+    --Grey-500: hsl(217, 19%, 35%);
+    --Dark-blue: hsl(219, 29%, 14%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+body {
+    background-color: var(--Grey-100);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container {
+    margin: 100px 24px;
+    max-width: 280px;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--Purple-500);
+    border-radius: 10px;
+    margin-bottom: 25px;
+
+}
+
+.card img {
+    margin: 15px 15px 15px 25px;
+    width: 30px;
+    border-radius: 50px;
+    border: 1px solid var(--Purple-300);
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: var(--White);
+    padding-top: 15px;
+}
+
+.name-one,
+.name-two,
+.name-three,
+.name-four,
+.name-five {
+    font-size: 13px;
+    line-height: 1.5;
+
+}
+
+.name p:nth-of-type(2) {
+    font-size: 11px;
+    font-weight: 200;
+}
+
+.one .text-one,
+.text-two {
+    color: var(--White);
+    margin-left: 25px;
+    margin-right: 55px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 220px;
+}
+
+.text-two {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-right: 40px;
+    padding-bottom: 35px;
+}
+
+.two {
+    background-color: var(--Grey-500);
+}
+
+.two .text-one {
+    color: white;
+    width: 220px;
+    margin-left: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.three {
+    background-color: var(--White);
+
+}
+
+.name-three,
+.name-five {
+    color: black;
+}
+
+.three .text-one {
+    color: rgb(0, 0, 0);
+    width: 220px;
+    margin-left: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.three .text-two {
+    color: black;
+}
+
+.four {
+    background-color: var(--Dark-blue);
+}
+
+.four .text-one {
+    color: white;
+    width: 210px;
+    margin-left: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+.five {
+    background-color: var(--White);
+}
+
+.five .text-one {
+    color: rgb(0, 0, 0);
+    width: 200px;
+    margin-left: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.five .text-two {
+    color: var(--Black);
+}
+
+.five p:nth-of-type(1) {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.three p:nth-of-type(1) {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+
+
+.attribution {
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 280px);
+        gap: 24px;
+        max-width: 1110px;
+        margin: 150px auto;
+        width: 100%;
+
+
+    }
+
+    .card {
+        height: 100%;
+        overflow: hidden;
+
+    }
+
+    .one {
+        grid-column: span 2;
+
+    }
+
+    .one .text-one {
+        width: 490px;
+        font-size: 20px;
+    }
+
+    .one .text-two {
+        width: 430px;
+
+
+    }
+
+    .two {
+        grid-column: span 1;
+    }
+
+    .two .text-one {
+        width: 180px;
+    }
+
+    .two .text-two {
+        width: 180px;
+    }
+
+    .three {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .three .text-one {
+        width: 150px;
+    }
+
+    .three .text-two {
+        width: 170px;
+    }
+
+    .four {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+    }
+
+    .four .text-one {
+        width: 480px;
+        font-size: 20px;
+    }
+
+    .four .text-two {
+        width: 400px;
+
+
+    }
+
+    .five {
+        grid-column: 4 / 5;
+        grid-row: 1 / 3;
+    }
+
+    .five .text-two {
+        width: 180px;
+        margin-right: 25px;
+    }
+}
